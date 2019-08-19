@@ -20,13 +20,13 @@ Make sure python is installed
 
 `@hint`
 Use the plus symbol to add add two numbers
+```
+sum = a + b
+```
 
 `@pre_exercise_code`
 ```{python}
-a = 2
-b = 3
-sum = a + b
-print("sum: ", sum)
+
 ```
 
 `@sample_code`
@@ -44,7 +44,7 @@ You should see sum: 5 printed in the console
 
 `@sct`
 ```{python}
-Ex().check_object("sum").has_equal_value(5)
+
 ```
 
 ---
