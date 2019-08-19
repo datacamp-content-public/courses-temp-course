@@ -26,15 +26,15 @@ sum = a + b
 
 `@pre_exercise_code`
 ```{python}
-
-```
-
-`@sample_code`
-```{python}
 a = 2
 b = 3
 sum = a + b
 print("sum: ", sum)
+```
+
+`@sample_code`
+```{python}
+
 ```
 
 `@solution`
