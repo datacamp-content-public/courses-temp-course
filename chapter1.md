@@ -31,7 +31,10 @@ print("sum: ", sum)
 
 `@sample_code`
 ```{python}
-
+a = 2
+b = 3
+sum = a + b
+print("sum: ", sum)
 ```
 
 `@solution`
@@ -41,7 +44,7 @@ You should see sum: 5 printed in the console
 
 `@sct`
 ```{python}
-
+Ex().check_object("sum").has_equal_value(5)
 ```
 
 ---
